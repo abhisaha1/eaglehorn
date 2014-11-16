@@ -1,6 +1,6 @@
 <?php
 namespace application;
-use ajaxtown\eaglehorn_framework\core\controller as ehController;
+use eaglehorn\core\controller as ehController;
 
 /**
  * EagleHorn
