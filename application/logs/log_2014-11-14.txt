@@ -1,0 +1,978 @@
+[2014-11-14 3:09:56.257128] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:09:57.578543] [INFO] View parsed - Welcome.php
+[2014-11-14 3:10:25.799688] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:10:25.799926] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:10:25.800762] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:10:25.801034] [INFO] View parsed - Welcome.php
+[2014-11-14 3:10:38.064208] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:10:38.064551] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:10:38.065160] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:10:38.065412] [INFO] View parsed - Welcome.php
+[2014-11-14 3:30:39.881392] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:30:39.882406] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:32:43.851207] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:32:43.851349] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:33:45.561094] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:33:45.561248] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:34:04.533072] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:34:04.533308] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:34:04.548435] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:34:04.562199] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:34:04.562474] [INFO] View parsed - Welcome.php
+[2014-11-14 3:36:38.540466] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:36:38.540612] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:38:45.271976] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:38:45.274640] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:38:45.274933] [INFO] View parsed - Welcome.php
+[2014-11-14 3:38:49.361352] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:38:49.361502] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:38:52.240845] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:38:52.242094] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:38:52.242341] [INFO] View parsed - Welcome.php
+[2014-11-14 3:40:56.500340] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:40:56.500487] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:40:58.990919] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:40:58.992124] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:40:58.992408] [INFO] View parsed - Welcome.php
+[2014-11-14 3:41:11.616709] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:41:11.616849] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:41:13.362785] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:41:13.364120] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:41:13.364419] [INFO] View parsed - Welcome.php
+[2014-11-14 3:43:28.306484] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:43:28.306840] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:44:03.431720] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:44:03.433042] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:44:03.433326] [INFO] View parsed - Welcome.php
+[2014-11-14 3:44:28.243062] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:44:28.243227] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:44:32.133375] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:44:32.140475] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:44:32.141277] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:44:32.141532] [INFO] View parsed - Welcome.php
+[2014-11-14 3:44:52.361227] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:44:52.361376] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:44:52.364270] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:44:52.364985] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:44:52.365760] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:44:52.366022] [INFO] View parsed - Welcome.php
+[2014-11-14 3:45:13.146023] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:45:13.146171] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:45:13.147360] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:45:13.147938] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:45:13.148566] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:45:13.148818] [INFO] View parsed - Welcome.php
+[2014-11-14 3:45:46.126332] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:45:46.126476] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:45:46.127744] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:45:46.128267] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:45:46.128890] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:45:46.129137] [INFO] View parsed - Welcome.php
+[2014-11-14 3:45:48.547096] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:45:48.547241] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:45:48.548362] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:45:48.548846] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:45:48.549406] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:45:48.549632] [INFO] View parsed - Welcome.php
+[2014-11-14 3:45:54.498631] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:45:54.498778] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:45:54.499855] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:45:54.500317] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:45:54.500926] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:45:54.501148] [INFO] View parsed - Welcome.php
+[2014-11-14 3:46:14.459604] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:46:14.459753] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:46:14.461061] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:48:07.665942] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:48:09.259147] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:48:09.259553] [INFO] View parsed - Welcome.php
+[2014-11-14 3:48:11.707716] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:48:11.707853] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:48:11.708904] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:48:18.568941] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:48:18.569780] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:48:18.570166] [INFO] View parsed - Welcome.php
+[2014-11-14 3:49:46.703879] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:49:46.704018] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:49:46.705132] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:50:04.821202] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:50:04.822314] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:50:04.822736] [INFO] View parsed - Welcome.php
+[2014-11-14 3:50:34.597438] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:50:34.597587] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:50:34.598786] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:50:34.599309] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:50:34.599889] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:50:34.600121] [INFO] View parsed - Welcome.php
+[2014-11-14 3:51:26.846553] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:51:26.846694] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:51:26.847837] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:51:26.848370] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:51:26.849071] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:51:26.849306] [INFO] View parsed - Welcome.php
+[2014-11-14 3:52:59.409250] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:52:59.409396] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:52:59.410605] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:52:59.411087] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:52:59.411750] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:52:59.412004] [INFO] View parsed - Welcome.php
+[2014-11-14 3:53:16.001898] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:53:16.002036] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:53:16.003024] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:53:16.003484] [ERROR] SQL Error
+--------------------------------------------------
+
+Error:
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emai' in 'where clause'
+
+SQL Statement:
+SELECT * FROM users WHERE emai=:email;
+
+Bind Parameters:
+Array
+(
+    [:email] => abhisheksaha11@gmail.com
+)
+
+Backtrace_Line_19:
+/Library/WebServer/Documents/eaglehorn/application/model/WelcomeModel.php at line 19
+
+Backtrace_Line_23:
+/Library/WebServer/Documents/eaglehorn/application/controller/Welcome.php at line 23
+
+Backtrace_Line_242:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 242
+
+Backtrace_Line_155:
+/Library/WebServer/Documents/eaglehorn/core/controller/Loader.php at line 155
+
+Backtrace_Line_32:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 32
+
+Backtrace_Line_38:
+/Library/WebServer/Documents/eaglehorn/bootstrap.php at line 38
+
+Backtrace_Line_21:
+/Library/WebServer/Documents/eaglehorn/index.php at line 21
+[2014-11-14 3:53:16.004025] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:53:16.004240] [INFO] View parsed - Welcome.php
+[2014-11-14 3:53:27.011845] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 3:53:27.011971] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 3:53:27.012996] [INFO] eaglehorn\application\model\ object created for WelcomeModel class
+[2014-11-14 3:53:27.013853] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 3:53:27.014147] [INFO] View parsed - Welcome.php
+[2014-11-14 4:08:11.600584] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 4:08:11.600732] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 4:08:11.601286] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 4:08:11.601540] [INFO] View parsed - Welcome.php
+[2014-11-14 4:08:24.143388] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 4:08:24.143860] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 4:08:24.144670] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 4:08:24.145014] [INFO] View parsed - Welcome.php
+[2014-11-14 4:08:30.513586] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 4:08:30.513658] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 4:08:30.514055] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 4:08:30.514208] [INFO] View parsed - Welcome.php
+[2014-11-14 4:08:32.923590] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 4:08:32.923667] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 4:08:32.924072] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 4:08:32.924226] [INFO] View parsed - Welcome.php
+[2014-11-14 4:08:34.422888] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 4:08:34.422974] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 4:08:34.423403] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 4:08:34.423716] [INFO] View parsed - Welcome.php
+[2014-11-14 4:08:42.705634] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 4:08:42.705768] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 4:08:42.706321] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 4:08:42.706681] [INFO] View parsed - Welcome.php
+[2014-11-14 14:14:28.677165] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:14:28.682054] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:14:28.684061] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 14:14:28.684736] [INFO] View parsed - Welcome.php
+[2014-11-14 14:14:36.065207] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:14:36.065429] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:16:51.931375] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 14:32:56.799015] [INFO] View parsed - Welcome.php
+[2014-11-14 14:33:01.131392] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:33:01.131536] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:33:05.042414] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 14:33:05.042628] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 14:33:06.331975] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 14:33:06.332176] [INFO] View parsed - Welcome.php
+[2014-11-14 14:34:36.106378] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:34:36.106617] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:35:25.609745] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 14:35:25.609889] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 14:35:29.159435] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 14:35:29.159645] [INFO] View parsed - Welcome.php
+[2014-11-14 14:35:32.080071] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:35:32.080219] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:38:49.077383] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 14:38:49.077574] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 14:38:49.077945] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 14:38:49.078111] [INFO] View parsed - Welcome.php
+[2014-11-14 14:38:51.960011] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:38:51.960159] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:39:27.986778] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 14:39:27.986911] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 14:39:27.987260] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 14:39:27.987385] [INFO] View parsed - Welcome.php
+[2014-11-14 14:40:09.153749] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:40:09.153981] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:45:01.890357] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 14:45:01.890634] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 14:48:25.794950] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 14:48:25.795296] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 14:48:25.795924] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 14:48:25.796128] [INFO] View parsed - Welcome.php
+[2014-11-14 15:04:18.399696] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:04:18.401640] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:05:41.281557] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:05:41.281697] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:08:59.662524] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:08:59.662672] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:09:08.798844] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:09:08.798986] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 15:09:08.799583] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 15:09:08.799714] [INFO] View parsed - Welcome.php
+[2014-11-14 15:10:37.108448] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:10:37.108598] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:10:39.973527] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:10:39.973721] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 15:10:39.974106] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 15:10:39.974323] [INFO] View parsed - Welcome.php
+[2014-11-14 15:12:45.163990] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:12:45.164133] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:12:49.330729] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:12:49.330970] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 15:12:49.331289] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 15:12:49.331401] [INFO] View parsed - Welcome.php
+[2014-11-14 15:15:08.030107] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:15:08.030258] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:15:16.174325] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:15:16.174532] [INFO] Template parsed - application/templates/one_col.tpl
+[2014-11-14 15:15:16.174922] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 15:15:16.175101] [INFO] View parsed - Welcome.php
+[2014-11-14 15:50:31.429164] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:50:31.429693] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:50:48.369352] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:50:48.369587] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:50:48.371225] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:50:59.561517] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:50:59.561646] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:50:59.562200] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:51:41.477020] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:51:41.477169] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:54:06.783924] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:54:09.656084] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:54:09.656243] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:54:11.606443] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:54:20.036428] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:54:20.036578] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:54:43.634448] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 15:57:03.699215] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 15:57:03.699352] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 15:57:06.151765] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:03:47.726097] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:03:47.726599] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:03:49.854120] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:04:15.339556] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:04:15.339725] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:04:18.531343] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:04:56.667927] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:04:56.668071] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:04:56.668656] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:20:35.213460] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:20:35.214664] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:20:35.216151] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:21:06.156728] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:21:06.156891] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:21:06.157589] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:21:33.066128] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:21:33.066361] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:21:33.066965] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:22:44.951330] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:22:44.951631] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:22:44.952577] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:25:36.113917] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:25:36.114084] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:25:36.115055] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:28:28.804383] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:28:28.804531] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:28:28.805109] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:40:16.758708] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:40:16.758835] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:40:16.759337] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:40:39.337857] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:40:39.337990] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:40:39.338524] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:40:54.177218] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:40:54.177433] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:40:54.178065] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:41:08.908607] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:41:08.908756] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:41:08.909343] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:41:22.222573] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:41:22.222721] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:41:22.223309] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:41:36.847268] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:41:36.847388] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:41:36.847872] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:42:09.721070] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:42:09.721223] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:42:09.721807] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:43:01.039611] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:43:01.039767] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:43:01.040297] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:43:49.259170] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:43:49.259392] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:43:49.260296] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:44:10.340282] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:44:10.340430] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:44:10.341018] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:44:44.509067] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:44:44.509217] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:44:44.509819] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:44:46.726336] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:44:46.726562] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:44:46.727155] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:46:08.402331] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:46:08.402478] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:46:08.403070] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:46:26.259074] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:46:26.259223] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:46:26.259809] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:46:35.962337] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:46:35.962485] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:46:35.963078] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 16:59:21.254460] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 16:59:21.254609] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 16:59:21.255232] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:01:48.946122] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:01:48.946264] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:01:48.946851] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:02:00.361107] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:02:00.361232] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:02:00.361772] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:04:15.321842] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:04:15.321994] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:04:29.751460] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:04:29.751610] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:04:29.752243] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:05:27.533539] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:05:27.535487] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:05:27.536782] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:05:37.123354] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:05:37.123575] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:05:37.124222] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:09:13.700238] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:09:13.700406] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:09:13.701047] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:09:36.681672] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:09:36.681818] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:09:36.682552] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:12:28.710319] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:12:28.710463] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:12:28.711105] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:12:55.127706] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:12:55.127855] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:12:55.128485] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:13:29.738599] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:13:29.738750] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:13:29.739387] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:14:12.385773] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:14:12.385924] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:14:12.386919] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:17:54.441618] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:17:54.441761] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:17:54.442394] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:19:05.434456] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:19:05.434583] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:19:05.435110] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:19:31.166277] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:19:31.166477] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:19:31.167198] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:23:48.932120] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:23:48.932270] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:23:48.932918] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:23:48.933243] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:23:48.933458] [INFO] View parsed - 
+[2014-11-14 17:24:55.471364] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:24:55.471512] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:24:55.472146] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:24:55.472467] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:24:55.472577] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:28:25.874612] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:28:25.874753] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:28:25.875246] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:28:25.875566] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:28:25.875751] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:39:19.170001] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:39:19.170367] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:39:19.171361] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:39:19.171974] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:39:19.172075] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:44:00.172720] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:44:00.173191] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:44:00.174036] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:44:00.174779] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:44:00.174911] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:44:11.351362] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:44:11.351500] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:44:11.351947] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:46:19.590801] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:46:19.591002] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:47:37.586407] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:47:37.586579] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:47:37.587481] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:47:37.588696] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:47:37.588843] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:48:58.860621] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:48:58.860770] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:48:58.861279] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:48:58.861568] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:48:58.861670] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:49:17.534497] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:49:17.534617] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:49:17.535015] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:49:17.535283] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:49:17.535368] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:49:42.933470] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:49:42.933620] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:49:42.934118] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:49:42.934537] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:49:42.934647] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:50:03.424484] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 17:50:03.424634] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 17:50:03.425108] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 17:50:11.329292] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 17:50:11.329487] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:32:16.014182] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:32:16.015609] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:32:16.017043] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:32:16.018146] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:32:16.018286] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:32:32.247067] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:32:32.247206] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:32:32.247663] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:32:32.248100] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:32:32.248198] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:32:55.143502] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:32:55.143654] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:32:55.144155] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:32:55.144577] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:32:55.144685] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:01.189861] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:33:01.190007] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:33:01.190481] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:33:01.190773] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:01.190882] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:24.590984] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:33:24.591133] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:33:24.591603] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:33:24.591909] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:24.592025] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:31.746376] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:33:31.746525] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:33:31.746989] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:33:37.212542] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:37.212682] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:55.244975] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:33:55.245160] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:33:55.245704] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:33:55.246153] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:33:55.246387] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:05.023269] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:34:05.023415] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:34:05.023869] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:34:05.024178] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:05.024282] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:30.123465] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:34:30.123614] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:34:30.124092] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:34:30.125988] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:30.126121] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:40.737277] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:34:40.737427] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:34:40.737909] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:34:40.738223] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:40.738332] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:50.835808] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:34:50.835954] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:34:50.836416] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:34:50.836710] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:34:50.836818] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:35:03.132550] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:35:03.132702] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:35:03.133179] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:35:37.759015] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:35:55.576517] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:36:50.381278] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:36:50.381419] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:36:50.381932] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:37:22.744079] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:37:22.744362] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:39:35.430371] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:39:35.430516] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:39:44.000680] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:39:44.000818] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:39:44.001282] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:39:44.001589] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:39:44.001689] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:39:54.793994] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:39:54.794146] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:40:02.773511] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:40:02.773641] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:40:02.774250] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:40:02.774718] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:40:02.774878] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:40:10.545758] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:40:10.545975] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:40:36.356827] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:40:36.356975] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:42:58.672862] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:42:58.673018] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:43:11.418797] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:43:11.419022] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:43:17.571841] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:43:17.571974] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:43:29.788172] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:43:29.788316] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:43:43.495853] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:43:43.495980] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:43:43.496407] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:43:43.496680] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:43:43.496772] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:44:59.280885] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:44:59.281047] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:44:59.281590] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:44:59.283047] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:44:59.283165] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:45:01.899559] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:45:01.899708] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:45:01.900202] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:45:01.900520] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:45:01.900646] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:45:19.954098] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:45:19.954250] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:45:19.954760] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:46:24.666157] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:46:24.666311] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:46:27.488496] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:46:27.488636] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:46:27.489101] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:46:59.096101] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:46:59.096236] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:47:02.016925] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-14 18:47:02.017072] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-14 18:47:02.017577] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-14 18:47:25.802409] [INFO] View parsed - application/view/Welcome.php
+[2014-11-14 18:47:25.802632] [INFO] View parsed - application/view/Welcome.php

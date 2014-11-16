@@ -1,0 +1,16 @@
+[2014-11-16 3:45:13.431598] [ERROR] The controller application/controller/Welcome.php was not found
+[2014-11-16 3:52:47.664727] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-16 3:52:47.665133] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-16 3:52:48.674088] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-16 3:52:48.675106] [INFO] View parsed - application/view/Welcome.php
+[2014-11-16 3:52:48.675281] [INFO] View parsed - application/view/Welcome.php
+[2014-11-16 3:53:03.943224] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-16 3:53:03.943382] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-16 3:53:03.943911] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-16 3:53:03.944377] [INFO] View parsed - application/view/Welcome.php
+[2014-11-16 3:53:03.944494] [INFO] View parsed - application/view/Welcome.php
+[2014-11-16 3:53:07.099293] [INFO] eaglehorn\core\worker\ object created for text class
+[2014-11-16 3:53:07.099441] [INFO] eaglehorn\application\controller\ object created for Welcome class
+[2014-11-16 3:53:07.099915] [INFO] View parsed - application/templates/one_col.tpl
+[2014-11-16 3:53:07.100219] [INFO] View parsed - application/view/Welcome.php
+[2014-11-16 3:53:07.100326] [INFO] View parsed - application/view/Welcome.php
