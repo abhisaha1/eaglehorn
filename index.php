@@ -1,4 +1,4 @@
-<?php namespace eaglehorn;
+<?php namespace ajaxtown\eaglehorn_framework;
 /**
  * EagleHorn
  *
@@ -18,7 +18,7 @@
 
 define('root', @realpath(dirname(__FILE__)) . DIRECTORY_SEPARATOR);
 require 'vendor/autoload.php';
-require 'bootstrap.php';
+require 'vendor/ajaxtown/eaglehorn_framework/bootstrap.php';
 
 
 class index

@@ -30,7 +30,7 @@ $config['error'] = 2;
 /**
  * Application URL. eg. http://localhost/My-Application-Root-Dir
  */
-$config['site']['url'] = 'http://localhost/eaglehorn/';
+$config['site']['url'] = 'http://localhost/eaglehorn_app/';
 
 
 /* Root directory */
@@ -65,7 +65,7 @@ $config['site']['default_controller'] = 'Welcome';
 /**
  * Load these workers by default
  */
-$config['workers'] = array('text');
+$config['workers'] = array('Text');
 
 
 /**
@@ -120,7 +120,7 @@ $config['mail']['pwd'] = '';
 $config['site']['cust_controller_dir'] = 'application/controller/';
 
 /* System directory */
-$config['site']['coredir'] = 'core/';
+$config['site']['coredir'] = 'vendor/ajaxtown/eaglehorn_framework/core/';
 
 /* Application directory */
 $config['site']['appdir'] = 'application/';

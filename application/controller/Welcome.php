@@ -1,6 +1,6 @@
 <?php
-namespace eaglehorn\application\controller;
-use eaglehorn\core\controller\Base;
+namespace application\controller;
+use ajaxtown\eaglehorn_framework\core\controller\Base;
 
 
 class Welcome extends Base
