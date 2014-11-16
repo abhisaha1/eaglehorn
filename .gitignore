@@ -1,0 +1,4 @@
+.idea/
+application/logs/
+composer.lock
+vendor/
