@@ -17,15 +17,16 @@
         "ajaxtown/eaglehorn_framework": "dev-master"
     },
     "autoload": {
-        "psr-4": {
-            "eaglehorn\\": "vendor/ajaxtown/eaglehorn_framework/",
-            "application\\":""
-        },
         "files": [
             "application/router.php",
-            "vendor/ajaxtown/eaglehorn_framework/core/functions.php",
-            "vendor/ajaxtown/eaglehorn_framework/core/common/ErrorHandler.php"
-        ]
+            "vendor/ajaxtown/eaglehorn_framework/src/eaglehorn/common/functions.php",
+            "vendor/ajaxtown/eaglehorn_framework/src/eaglehorn/error/ErrorHandler.php"
+        ],
+        "psr-4": {
+            "application\\":"",
+            "eaglehorn\\":"vendor/ajaxtown/eaglehorn_framework/src/"
+
+        }
     },
     "minimum-stability": "dev"
 }

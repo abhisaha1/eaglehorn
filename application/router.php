@@ -1,6 +1,5 @@
 <?php
 namespace application;
-use eaglehorn\core\controller as ehController;
 
 /**
  * EagleHorn
@@ -17,4 +16,4 @@ use eaglehorn\core\controller as ehController;
  * @desc File to add rules for routes
  */
 
-ehController\Router::route('/hello/sexy/', 'welcome/login');
+\eaglehorn\Router::route('/hello/sexy/', 'welcome/login');

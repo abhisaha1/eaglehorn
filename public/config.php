@@ -118,7 +118,7 @@ $config['mail']['pwd'] = '';
 
 
 /* System directory */
-$config['site']['coredir'] = 'vendor/ajaxtown/eaglehorn_framework/core/';
+$config['site']['coredir'] = 'vendor/ajaxtown/eaglehorn_framework/';
 
 /* Application directory */
 $config['site']['appdir'] = $config['site']['rootdir'].'application/';

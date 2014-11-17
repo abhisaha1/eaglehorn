@@ -1,4 +1,4 @@
-<?php namespace eaglehorn;
+<?php
 /**
  * EagleHorn
  *
@@ -12,28 +12,12 @@
  * @filesource
  *
  *
- * @desc  Index file
+ * @desc  Autoload
  *
  */
 
+define('root', dirname(dirname(__FILE__)).'/');
+define('eaglehorn',root . 'vendor/ajaxtown/eaglehorn_framework/src/');
 
-require 'autoload.php';
-
-class index
-{
-
-    public function __construct()
-    {
-
-    }
-
-    public function index($args)
-    {
-
-        echo 'This is the index page, shown by default to all requests that cannot be routed';
-    }
-
-
-}
-
-?>
+require root . 'vendor/autoload.php';
+require eaglehorn . 'bootstrap/bootstrap.php';
