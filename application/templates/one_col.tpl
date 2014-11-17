@@ -8,7 +8,7 @@
 <body>
 <div id="container">
 
-    <header>{HEADER|strtolower|trim}</header>
+    <header>{HEADER|strtoupper|trim}</header>
 
     <div id="content">
         {CONTENT}

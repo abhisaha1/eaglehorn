@@ -17,7 +17,7 @@
  */
 
 define('root', dirname(dirname(__FILE__)).'/');
-define('eaglehorn',root . 'vendor/ajaxtown/eaglehorn_framework/src/');
+define('eaglehorn',root . 'vendor/ajaxtown/eaglehorn_framework/src/eaglehorn/');
 
 require root . 'vendor/autoload.php';
 require eaglehorn . 'bootstrap/bootstrap.php';
