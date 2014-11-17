@@ -1,7 +1,7 @@
 {
-    "name": "ajaxtown/eaglehorn_app",
+    "name": "ajaxtown/eaglehorn",
     "type": "Framework",
-    "description": "Framework for PHP 5.3+",
+    "description": "Framework for PHP 5.4+",
     "homepage": "https://github.com/ajaxtown/eaglehorn",
     "license": "MIT",
     "authors": [
