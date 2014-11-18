@@ -17,15 +17,8 @@
         "ajaxtown/eaglehorn_framework": "dev-master"
     },
     "autoload": {
-        "files": [
-            "application/router.php",
-            "vendor/ajaxtown/eaglehorn_framework/src/eaglehorn/common/functions.php",
-            "vendor/ajaxtown/eaglehorn_framework/src/eaglehorn/error/ErrorHandler.php"
-        ],
         "psr-4": {
-            "application\\":"",
-            "eaglehorn\\":"vendor/ajaxtown/eaglehorn_framework/src/"
-
+            "application\\":"application"
         }
     },
     "minimum-stability": "dev"

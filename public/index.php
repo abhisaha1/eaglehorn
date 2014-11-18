@@ -17,7 +17,7 @@
  */
 
 
-require 'autoload.php';
+require '../start/autoload.php';
 
 class index
 {

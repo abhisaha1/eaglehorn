@@ -30,12 +30,11 @@ $config['error'] = 2;
 /**
  * Application URL. eg. http://localhost/My-Application-Root-Dir
  */
-$config['site']['url'] = 'http://localhost/eaglehorn_app/';
+$config['site']['url'] = 'http://localhost/eaglehorn/';
 
 
 /* Root directory */
 $config['site']['rootdir'] = dirname(dirname(__FILE__)).'/';
-
 
 /**
  * Logger configurations

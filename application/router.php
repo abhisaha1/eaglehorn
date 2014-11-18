@@ -16,4 +16,6 @@ namespace application;
  * @desc File to add rules for routes
  */
 
-\eaglehorn\Router::route('/hello/sexy/', 'welcome/login');
+//If you point to http://localhost/project/fancycontroller/fancymethod, you will still see the welcome page.
+
+\Eaglehorn\Router::route('/fancycontroller/fancymethod', 'welcome/index');
