@@ -1,6 +1,6 @@
 <?php
-namespace eaglehorn\application\model;
-use eaglehorn\core\controller\Model;
+namespace application\model;
+use Eaglehorn\Model;
 
 class WelcomeModel extends Model
 {
@@ -16,7 +16,8 @@ class WelcomeModel extends Model
     {
         $this->print = true;
         $bind[':email'] = 'abhisheksaha11@gmail.com';
-        return $this->select('users', 'email=:email', $bind);
+
+        return $this->select('users');
 
     }
 

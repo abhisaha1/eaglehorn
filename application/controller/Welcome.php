@@ -21,6 +21,7 @@ class Welcome extends Base
             'HEADER' => ' Get Started !'
         );
 
+
         $template = $this->load->template('one_col', $data);
         $template->injectCSS(configItem('site')['viewurl'].'style.css');
         $template->render();
