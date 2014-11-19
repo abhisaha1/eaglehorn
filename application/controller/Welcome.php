@@ -24,9 +24,10 @@ class Welcome extends Base
 
         $template = $this->load->template('one_col', $data);
         $template->injectCSS(configItem('site')['viewurl'].'style.css');
-        $template->render();
+        return $template->render();
 
     }
+
 
 }
 
