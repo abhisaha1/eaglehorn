@@ -21,5 +21,8 @@
             "application\\":"application"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev":{
+        "phpunit/phpunit":"4.3.*"
+    }
 }
