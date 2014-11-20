@@ -36,6 +36,9 @@ $config['site']['url'] = 'http://localhost/eaglehorn/';
 /* Root directory */
 $config['site']['rootdir'] = dirname(dirname(__FILE__)).'/';
 
+/* Application Directory */
+$config['site']['appdir'] = $config['site']['rootdir'].'application/';
+
 /**
  * Logger configurations
  */
@@ -115,39 +118,5 @@ $config['mail']['uname'] = '';
 $config['mail']['pwd'] = '';
 
 
-
-/* System directory */
-$config['site']['coredir'] = 'vendor/ajaxtown/eaglehorn_framework/';
-
-/* Application directory */
-$config['site']['appdir'] = $config['site']['rootdir'].'application/';
-
-/* Custom Controller directory */
-$config['site']['cust_controller_dir'] = $config['site']['appdir'].'controller/';
-
-/* System Controller directory */
-$config['site']['core_controller_dir'] = $config['site']['coredir'] . 'controller/';
-
-/* View directory */
-$config['site']['viewdir'] = $config['site']['appdir'] . 'view/';
-
-/* View URL */
-$config['site']['viewurl'] = $config['site']['url'] . 'application/view/';
-
-/* Custom Model directory */
-$config['site']['modeldir'] = $config['site']['appdir'] . 'model/';
-
-/* Template directory */
-$config['site']['templatedir'] = $config['site']['appdir'] . 'templates/';
-
-/* Worker directory */
-$config['site']['workerdir'] = $config['site']['coredir'] . 'worker/';
-
-/* Assembly directory */
-$config['site']['assemblydir'] = $config['site']['coredir'] . 'assembly/';
-
-/* Assembly URL */
-$config['site']['assemblyurl'] = $config['site']['coredir'] . 'assembly/';
-
 /* Cache directory */
-$config['site']['cachedir'] = $config['site']['coredir'] . 'cache/';
+$config['site']['cachedir'] = $config['site']['appdir'] . 'cache/';
