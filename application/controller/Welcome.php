@@ -1,6 +1,6 @@
 <?php
 namespace application\controller;
-use eaglehorn\Base;
+use Eaglehorn\Base;
 
 
 class Welcome extends Base
@@ -21,13 +21,14 @@ class Welcome extends Base
             'HEADER' => ' Get Started !'
         );
 
+        $m = $this->load->model('WelcomeModel');
+        $m->updateme();
 
         $template = $this->load->template('one_col', $data);
         $template->injectCSS(configItem('site')['viewurl'].'style.css');
         return $template->render();
 
     }
-
 
 }
 

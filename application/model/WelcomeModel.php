@@ -12,13 +12,4 @@ class WelcomeModel extends Model
 
     }
 
-    function read()
-    {
-        $this->print = true;
-        $bind[':email'] = 'abhisheksaha11@gmail.com';
-
-        return $this->select('users');
-
-    }
-
 } 

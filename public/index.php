@@ -1,4 +1,4 @@
-<?php namespace eaglehorn;
+<?php namespace Eaglehorn;
 /**
  * EagleHorn
  *

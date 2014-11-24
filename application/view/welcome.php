@@ -1,4 +1,4 @@
-<?php namespace eaglehorn\application\view; ?>
+<?php namespace Eaglehorn\application\view; ?>
 
 Welcome to Eaglehorn ! <br><br>
 
