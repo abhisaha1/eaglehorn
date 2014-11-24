@@ -30,8 +30,8 @@ $config['error'] = 2;
 /**
  * Application URL. eg. http://localhost/My-Application-Root-Dir
  */
-$config['site']['url'] = 'http://localhost/eaglehorn/';
-
+$config['site']['url'] = 'http://localhost/eaglehorn/public/';
+                                                      
 
 /* Root directory */
 $config['site']['rootdir'] = dirname(dirname(__FILE__)).'/';
