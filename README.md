@@ -7,13 +7,13 @@ PHP MVC Framework
 Eaglehorn is a PHP MVC Framework for developing PHP applications. It gives a very clean way to understand how MVC works. A light-weight framework with the concept of Assemblies (Helper classes which have dependencies and needs more than one file) and Workers (Individual helper classes with no dependencies and is always one file).
 
 #####Why should I use Eaglehorn when other powerful frameworks exist ?
-Its a choice. In terms of learnng, you can learn and understand this framework in couple of hours. Its that simple. Also, it uses latest PSR standards(namespacing, autoloading, naming conventions..) Also, it separates the application layer from the core framework. This means that updating the core framework is a cake walk. But if you are really making an application whose magnitude is like Facebook, I wont recommend this.
+Its a choice. In terms of learning, you can learn and understand this framework in couple of hours. Its that simple. Also, it uses latest PSR standards(namespacing, autoloading, naming conventions..) Also, it separates the application layer from the core framework. This means that updating the core framework is a cake walk. But if you are really making an application whose magnitude is like Facebook, I wont recommend this.
 
 #####Did anyone use this?
 The  [Squashchampions](https://www.squashchampions.com) Portal and [eaglehorn.org](https://www.eaglehorn.org) was developed using eaglehorn. There are few other projects, but they are not public.
 
 #####How can I help?
-Eaglehorn is an open-source project and anyone may contribute to Eaglehorn for its improvement. The core frameowrk has its repository here - [Eaglehorn_Framework](https://github.com/ajaxtown/eaglehorn_framework)
+Eaglehorn is an open-source project and anyone may contribute to Eaglehorn for its improvement. The core framework has its repository here - [Eaglehorn_Framework](https://github.com/ajaxtown/eaglehorn_framework)
 
 #####Support
 Please post comments here for any bugs or issues or for suggestions. I would be really excited.
