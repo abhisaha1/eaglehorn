@@ -25,7 +25,7 @@ date_default_timezone_set('Asia/Calcutta');
 | Change this to your site url
 |
 */
-$config['site']['url'] = 'http://dev.eaglehorn/';
+$config['site']['url'] = 'http://localhost/eaglehorn/public';
 
 /*
 |--------------------------------------------------------------------------
