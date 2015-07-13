@@ -12,14 +12,30 @@
             "role": "Developer"
         }
     ],
+    "repositories": [{
+      "type": "package",
+      "package": {
+        "name": "redbeanphp",
+        "version": "master",
+        "dist": {
+          "url": "http://www.redbeanphp.com/downloadredbean.php",
+          "type": "tar"
+        }
+      }
+    }],
     "require": {
-        "php": ">=5.4",
-        "ajaxtown/eaglehorn_framework": "dev-master"
+        "php": ">=5.5",
+        "twig/twig": "1.*",
+        "ajaxtown/eaglehorn_framework": "dev-master",
+        "redbeanphp": "master@dev"
     },
     "autoload": {
         "psr-4": {
             "application\\":"application"
-        }
+        },
+        "files": [
+          "vendor/redbeanphp/rb.php"
+        ]
     },
     "minimum-stability": "dev",
     "require-dev":{

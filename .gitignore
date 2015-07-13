@@ -2,3 +2,4 @@
 vendor/
 composer.lock
 application/logs/
+**/.DS_STORE

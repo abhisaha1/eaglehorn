@@ -13,7 +13,10 @@
  *
  * @desc File to add rules for routes
  */
-
+namespace Eaglehorn;
 //If you point to http://localhost/project/fancycontroller/fancymethod, you will still see the welcome page.
 
-\Eaglehorn\Router::route('/fancycontroller/fancymethod', 'welcome/index');
+Router::route('/fancycontroller/fancymethod/<#user_id>', 'welcome/index');
+Router::route('/test/<#test>', function($user) {
+    View::show('welcome.php',array('user' => $user));
+});
