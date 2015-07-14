@@ -5,7 +5,7 @@
  */
 $config['environment'] = array(
 
-        'dev' => 'http://localhost/eaglehorn_documentation/public/',
+        'dev' => 'http://localhost/eaglehorn/public/',
         'test' => 'http://test.eaglehorn/',
         'production' => 'http://eaglehorn.org/'
 
