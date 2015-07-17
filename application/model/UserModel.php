@@ -1,10 +1,20 @@
 <?php
 namespace application\model;
+
 use Eaglehorn\Model;
 use R;
 
-class UserModel extends Model {
+/**
+ * Class UserModel
+ * @package application\model
+ */
+class UserModel extends Model
+{
 
+    /**
+     * @return int|string
+     * @throws \RedBeanPHP\RedException
+     */
     function insertUser()
     {
         $users = R::dispense('users');
@@ -15,6 +25,7 @@ class UserModel extends Model {
 
 
 }
+
 
 
 

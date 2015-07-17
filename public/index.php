@@ -18,22 +18,3 @@
 
 
 require '../start/autoload.php';
-
-class index
-{
-
-    public function __construct()
-    {
-
-    }
-
-    public function index($args)
-    {
-
-        echo 'This is the index page, shown by default to all requests that cannot be routed';
-    }
-
-
-}
-
-?>
