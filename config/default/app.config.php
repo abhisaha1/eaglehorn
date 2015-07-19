@@ -22,10 +22,14 @@ date_default_timezone_set('Asia/Calcutta');
 | Site URL
 |--------------------------------------------------------------------------
 |
-| Change this to your site url
+| You can leave this url blank. Instead configure your default environment
+| by editing the environment.config.php. Change the url of the default
+| environment. Optionally, you can create multiple environments.
+|
+| This url gets set automatically from the environment.
 |
 */
-$config['site']['url'] = 'http://localhost/eaglehorn/public';
+$config['site']['url'] = '';
 
 /*
 |--------------------------------------------------------------------------
