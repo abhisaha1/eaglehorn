@@ -1,3 +1,6 @@
+<br/>
+View
+<br/>
 <code>
     application/view/welcome.php
 </code>

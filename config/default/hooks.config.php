@@ -41,6 +41,6 @@ $config['hooks'] = array(
         'class'         => 'Hooks',
         'namespace'     => 'hooks',
         'method'        => 'notFound',
-        'active'        => 0
+        'active'        => 1
     )
 );

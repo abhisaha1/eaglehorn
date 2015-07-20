@@ -45,15 +45,6 @@ $config['site']['appdir'] = $config['site']['rootdir'].'application/';
 
 /*
 |--------------------------------------------------------------------------
-| Default Controller
-|--------------------------------------------------------------------------
-| The constructor or method with name index() will be triggered by default.
-|
-*/
-$config['site']['default_controller'] = 'Welcome';
-
-/*
-|--------------------------------------------------------------------------
 | Error Control
 |--------------------------------------------------------------------------
 |

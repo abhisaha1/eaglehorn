@@ -15,7 +15,7 @@
  */
 $config['environment'] = array(
 
-        'default' => 'http://localhost/eaglehorn/public/'
+        'default' => 'http://dev.eaglehorn/'
 
 );
 
