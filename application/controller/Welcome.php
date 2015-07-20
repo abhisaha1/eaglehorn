@@ -20,7 +20,6 @@ class Welcome extends Base
         );
 
         $template = $this->load->template('one_col', $data);
-display($this);
         $template->injectCSS('styles/style.css');
         return $template->render();
 
