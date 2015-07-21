@@ -2,4 +2,4 @@
 /**
  * Cache configurations
  */
-$config['cache']['dir'] = root.'application/cache/';
+$config['cache']['dir'] = $config['site']['appdir'] . 'cache/';

@@ -18,7 +18,3 @@ $config['mail']['port'] = '';
 $config['mail']['uname'] = '';
 
 $config['mail']['pwd'] = '';
-
-
-/* Cache directory */
-$config['site']['cachedir'] = $config['site']['appdir'] . 'cache/';
