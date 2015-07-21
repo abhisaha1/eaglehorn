@@ -10,24 +10,57 @@ $config['hooks'] = array(
     'pre_controller' => array(
         'class'         => 'Hooks',
         'namespace'     => 'hooks',
-        'method'        => 'preload',
+        'method'        => '',
         'active'        => 0
     ),
 
     'post_controller' => array(
         'class'         => 'Hooks',
         'namespace'     => 'hooks',
-        'method'        => 'postload',
+        'method'        => '',
+        'active'        => 0
+    ),
+
+    'pre_model' => array(
+        'class'         => 'Hooks',
+        'namespace'     => 'hooks',
+        'method'        => '',
+        'active'        => 0
+    ),
+
+    'post_model' => array(
+        'class'         => 'Hooks',
+        'namespace'     => 'hooks',
+        'method'        => '',
+        'active'        => 0
+    ),
+
+    'pre_worker' => array(
+        'class'         => 'Hooks',
+        'namespace'     => 'hooks',
+        'method'        => '',
+        'active'        => 0
+    ),
+
+    'post_worker' => array(
+        'class'         => 'Hooks',
+        'namespace'     => 'hooks',
+        'method'        => '',
         'active'        => 0
     ),
 
     'pre_template'  => array(
-
         'class'         => 'Hooks',
         'namespace'     => 'hooks',
-        'method'        => 'pretemplate',
+        'method'        => '',
         'active'        => 0
+    ),
 
+    'pre_view'          => array(
+        'class'         => 'Hooks',
+        'namespace'     => 'hooks',
+        'method'        => '',
+        'active'        => 0
     ),
 
     'error' => array(

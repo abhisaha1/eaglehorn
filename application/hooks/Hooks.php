@@ -1,6 +1,8 @@
 <?php namespace application\hooks;
 
 
+use Eaglehorn\View;
+
 class Hooks {
 
     function notFound()
