@@ -5,7 +5,7 @@ class Hooks
 
     function notFound()
     {
-        echo "<h2>404</h2>";
+        \Eaglehorn\View::show('404.php');
     }
 
 }
